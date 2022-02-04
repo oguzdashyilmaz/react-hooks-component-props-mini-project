@@ -2,11 +2,11 @@ import React from 'react';
 import Article from './Article';
 
 const ArticleList = ({posts}) => (
-  <div>
+  <main>
     {posts.map(post=>(
       <Article key={post.id} title={post.title} date={post.date} review={post.review}/>
     ))}
-  </div>
+  </main>
 );
 
 export default ArticleList;

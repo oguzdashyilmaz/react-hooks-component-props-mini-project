@@ -9,9 +9,9 @@ import ArticleList from "./ArticleList";
 function App() {
   return (
     <div className="App">
-      <Header name={blogData.name}/>
-      <About/>
-      <ArticleList posts={blogData.posts}/>
+      <Header name={blogData.name} />
+      <About />
+      <ArticleList posts={blogData.posts} />
     </div>
   );
 }
